@@ -1,0 +1,165 @@
+body{
+    background-image: url(../img/%D0%A4%D0%BE%D0%BD.jpg);
+    background-attachment: fixed;
+}
+.btn{
+    display: inline-block;
+    transition: 0.3s;
+    height: 80px;
+    width: 310px;
+    background-color: darkorange;
+    padding: 10px 0 0 30px;
+    border: 8px double black;
+    border-radius: 50px;
+    font-size: 30px;
+    margin-left: 72px;
+    margin-top: 20px;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    vertical-align:top;
+    font-family: Arial;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+img{
+    height: 500px;
+    margin: 30px;
+    margin-left: 500px;
+    margin-bottom: 0;
+    border: black 7px solid;
+    border-left-color: darkorange;
+    border-right-color: darkorange;
+}
+footer{
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+    background-color: blanchedalmond;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 30px;
+    letter-spacing: -1px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+.btn:hover{
+    transform: rotate(13deg);
+    background-color: black;
+}
+img:hover{
+    transform: rotate(360deg);
+}
+header{
+    display: inline-block;
+    text-align: center;
+    font-size: 60px;
+    background-color:darkorange;
+    height: 70px;
+    width: 900px;
+    padding-bottom: 20px;
+    margin-left: 12%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-shadow: 5px 1px 3px white;
+    transition: 0.2s;
+    border-radius: 11px;
+}
+header:hover{
+    background-color: black;
+    color: darkorange;
+}
+.btn_img{
+    height: 91%;
+    margin: 0;
+    border: none;
+}
+.back{
+    transition: 0.4s;
+    height: 40px;
+    width: 240px;
+    display: inline-block;
+    background-color: darkorange;
+    padding: 10px;
+    border-radius: 20px;
+}
+.back a{
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    padding-bottom: 50px;
+    font-size: 30px;
+    transition: 0.3s;
+}
+.back:hover{
+    transform: rotate(-10deg);
+    background-color: black;
+}
+.back:hover div{
+    background-image: url(../img/%D0%BD%D0%B0%D0%B7%D0%B0%D0%B4_%D0%BE%D1%80%D0%B0%D0%BD%D0%B6.png);
+}
+.back:hover a{
+    color: darkorange;
+}
+.back div{
+    display: inline-block;
+    margin 0;
+    padding-top: 5px;
+    height: 30px;
+    width: 53px;
+    background-image: url(../img/%D0%BD%D0%B0%D0%B7%D0%B0%D0%B4.png);
+    background-size: cover;
+    transition: 0.3s;
+}
+.list{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 50px;
+    background-color: blanchedalmond;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 30px;
+    letter-spacing: -1px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    p{font-size: 30px; margin-left: 10px; width: 142vw}
+    .group_img{margin-left: 130px; height: 300px}
+    .kollazh{margin-left: 140px; height: 300px}
+    footer{margin-top: 20px; font-size: 13px; text-align: none; margin-left: 245px}
+    header{font-size: 60px; margin-left: 490px; height: 160px; width: 500px}
+    .btn{display: inline-block; margin-left: 10px; height: 90px; font-size: 20px; width: 400px}
+    .btn a{font-size: 50px}
+    .group_btn{width: 1400px}
+    .main_img{height: 600px; width: 1000px; margin-left: 200px}
+    .list{font-size: 30px; margin-left: 10px; width: 142vw}
+}
+@media (max-width: 480px){
+    p{font-size: 30px; margin-left: 10px; width: 194vw}
+    .group_img{margin-left: 60px; height: 390px}
+    .kollazh{margin-left: 55px; height: 380px}
+    footer{font-size: 11px; text-align: none; margin-left: 180px; width: 400px}
+    header{font-size: 100px; margin-left: 130px; height: 150px; width: 500px}
+    .btn{display: inline-block; margin-left: 20px; height: 120px; font-size: 33px; width: 300px}
+    .group_btn{width: 1400px;}
+    .list{font-size: 30px; margin-left: 10px; width: 142vw}
+    .main_img{}
+}
